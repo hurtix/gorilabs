@@ -1,0 +1,54 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `base` layer
+ */
+
+/**
+ * This uses the background and foreground colors declared in the `theme.json`
+ * file and is applied both to the front end and in the block editor.
+ */
+body {
+	@apply bg-background text-foreground font-sans;
+}
+:root {
+	--dark: #0c0c0c;
+	--light: #fff;
+	--grayLight: hsla(0,0%,93.7%,0.5);
+	--grayDark: rgba(12,12,12,0.5);
+}
+.desktop .container {
+	max-width: calc(100% - 20%) !important;
+	padding: 0 5% !important;
+}
+.mobile .container {
+	/* max-width: calc(100% - 10%) !important; */
+	padding: 10% !important;
+}
+.oscurecer {
+	filter: brightness(0) invert(0);
+}
+/* En tu archivo base.css */
+@keyframes float {
+	0%, 100% { 
+	  transform: translateY(0) rotate(-10deg);
+	}
+	50% { 
+	  transform: translateY(-10px) rotate(-10deg);
+	}
+  }
+  
+  @keyframes floatDelayed {
+	0%, 100% { 
+	  transform: translateY(0) rotate(10deg);
+	}
+	50% { 
+	  transform: translateY(-10px) rotate(10deg);
+	}
+  }
+  
+  .animate-float {
+	animation: float 3s ease-in-out infinite;
+  }
+  
+  .animate-float-delayed {
+	animation: floatDelayed 4s ease-in-out infinite;
+  }

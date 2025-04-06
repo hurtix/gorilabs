@@ -1,0 +1,50 @@
+/**
+ * Custom `@font-face` rules
+ *
+ * These will be added immediately before Tailwind’s `base` layer.
+ */
+@font-face { 
+	font-family: "Nippo"; 
+	src: url("assets/fonts/nippo.woff2") format("woff2"); 
+	font-style: normal; 
+	font-weight: 400; 
+	font-display: block; 
+}
+
+@font-face { font-family: "SF Pro Text"; 
+    src: local("☺"), 
+    url("assets/fonts/sf-pro-text_regular.woff2") format("woff2"); 
+    /* url("assets/fonts/sf-pro-text_regular.woff") format("woff"), 
+    url("assets/fonts/sf-pro-text_regular.ttf") format("truetype");  */
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face { font-family: "SF Pro Text"; 
+    src: local("☺"), 
+    url("assets/fonts/sf-pro-text_semibold.woff2") format("woff2"); 
+    /* url("assets/fonts/sf-pro-text_semibold.woff") format("woff"), 
+    url("assets/fonts/sf-pro-text_semibold.ttf") format("truetype");  */
+    font-style: normal; 
+    font-weight: 600; 
+}
+
+@font-face { 
+    font-family: "SF Pro Display"; 
+    src: local("☺"), 
+    url("assets/fonts/sf-pro-display_regular.woff2") format("woff2"); 
+    /* url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff") format("woff"), 
+    url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.ttf") format("truetype");  */
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face { 
+    font-family: "SF Pro Display"; 
+    src: local("☺"), 
+    url("assets/fonts/sf-pro-display_semibold.woff2") format("woff2"); 
+    /* url("assets/fonts/sf-pro-display_semibold.woff") format("woff"), 
+    url("assets/fonts/sf-pro-display_semibold.ttf") format("truetype");  */
+    font-style: normal; 
+    font-weight: 600; 
+}
