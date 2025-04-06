@@ -16,8 +16,8 @@ get_header(); ?>
 
     <h1></h1>
 
-    <div class="content text-2xl md:text-2xl w-1/1 md:w-2/3 mx-auto py-10 md:py-40 font-titulo [&>p]:mb-8">
-      <p>Hola, somos
+    <div class="content text-xl md:text-2xl w-1/1 md:w-2/3 mx-auto py-10 md:py-40 font-titulo [&>p]:mb-8">
+      <p class="text-3xl">Hola, somos
         <span class="relative">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/juan.webp" alt=""
             class="aspect-square pointer-events-none w-12 md:w-15 h-12 md:h-15 object-cover rounded-full absolute -top-10 md:top-8 -left-4 -rotate-2 border-3 animate-float drop-shadow-[0_5px_15px_rgba(0,0,0,0.2)]">Juan
@@ -36,7 +36,7 @@ get_header(); ?>
 
       <p>Nuestro enfoque es simple:</p>
 
-      <ul class="mb-8 grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 gap-4 [&>li]:border [&>li]:border-gray-200 [&>li]:p-4 [&>li]:text-xl [&>li]:bg-gray-100 [&>li>span]:block">
+      <ul class="mb-8 grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 gap-4 [&>li]:border [&>li]:border-gray-200 [&>li]:p-4 [&>li]:text-xl md:[&>li]:text-2xl [&>li]:bg-gray-100 [&>li>span]:block">
         <li class="md:row-span-2 relative"><img class="absolute -top-10 md:-top-10 -left-5 md:-left-10 w-30 md:w-40 pointer-events-none select-none grayscale-100 brightness-125 animate-float drop-shadow-[0_5px_15px_rgba(0,0,0,0.2)]" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/webp/icon-14.webp" alt=""><span class="font-serif italic font-bold pt-14 md:pt-24">Planificación</span> Comenzamos dando forma a tus necesidades con aportes de estrategas, diseñadores e ingenieros, trazando una hoja de ruta clara para el desarrollo.</li>
         <li><span class="font-serif italic font-bold">Validación</span> Construimos rápidamente prototipos para probar y refinar tu concepto.</li>
         <li class="md:col-start-2 md:row-start-2"><span class="font-serif italic font-bold">Lanzamiento y Escalamiento</span> Desarrollamos productos robustos centrados en el usuario y te ayudamos a escalarlos efectivamente.</li>

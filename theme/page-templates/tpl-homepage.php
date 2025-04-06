@@ -73,7 +73,7 @@ get_header(); ?>
 <!-- HOW - ¿CÓMO? -->
 <div id="how" class="w-full">
     <div class="bg-white text-[#212123] container mx-auto flex items-center h-auto">
-        <div class="flex items-start flex-col md:flex-row py-20">
+        <div class="flex items-start flex-col md:flex-row py-0 md:py-20">
             <div class="w-1/1 md:w-1/3 relative md:sticky md:top-20">
                 <span>How?</span>
                 <h2 class="font-titulo font-bold text-3xl md:text-4xl mb-6 pr-0 md:pr-25">Hacemos muchas cosas y las hacemos muy bien</h2>
@@ -168,7 +168,7 @@ get_header(); ?>
 <!-- FOR WHOM - ¿PARA QUIÉN? -->
 <div id="for-whom" class="w-full ">
     <div class="bg-white text-[#212123] container mx-auto flex items-center h-full">
-        <div class="flex items-start flex-col md:flex-row py-20">
+        <div class="flex items-start flex-col md:flex-row py-0 md:py-20">
             <div class="w-1/1 md:w-1/3 relative md:sticky md:top-20">
                 <span>For whom?</span>
                 <h2 class="font-titulo font-bold text-3xl md:text-4xl mb-6 pr-0 md:pr-25">Nuestro objetivo es la gratificación de nuestros clientes</h2>
