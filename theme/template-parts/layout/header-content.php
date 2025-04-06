@@ -14,9 +14,9 @@
     <div class="relative md:fixed w-full md:w-[10%] py-4 px-[2%] h-full border-r-0 md:border-r border-gray-200">
         <div class="flex flex-col h-full justify-around">
             <div class="flex justify-center">
-                <!-- <a href="/" class="block overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
+                <a href="/" class="block overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
                     <img class="h-[75px] md:h-[125px]" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/brand.svg" alt="Logo">
-                </a> -->
+                </a>
             </div>
             
             <hr class="text-gray-200 hidden md:block">
