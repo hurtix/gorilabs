@@ -21,7 +21,7 @@ body {
 }
 .mobile .container {
 	/* max-width: calc(100% - 10%) !important; */
-	padding: 10% !important;
+	padding: 5% !important;
 }
 .oscurecer {
 	filter: brightness(0) invert(0);

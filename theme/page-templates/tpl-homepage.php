@@ -89,11 +89,11 @@ get_header(); ?>
 
                                 <article class="border-b border-gray-200 hover:bg-gray-100">
                                     <a class="block p-4 pointer-events-none" href="<?php the_permalink() ?>" title="<?php the_title() ?>" rel="bookmark">
-                                        <div class="grid md:grid-cols-[0.15fr_0.25fr_0.60fr] justify-between items-start gap-4">
-                                            <h3 class="sigla text-7xl font-display tracking-tighter"><?php the_field('servicio-sigla'); ?></h3>
-                                            <h4 class="font-display uppercase text-xl pt-4 leading-none"><?php the_title(); ?></h4>
-                                            <div class="py-2"><?php echo get_field('servicio-descripcion'); ?></div>
-                                        </div>
+                                        <div class="grid grid-cols-[0.3fr_0.7fr] md:grid-cols-[0.15fr_0.25fr_0.60fr] grid-rows-[auto_auto] md:grid-rows-1 justify-between items-start gap-4">
+    <h3 class="sigla text-5xl md:text-7xl font-display tracking-tighter"><?php the_field('servicio-sigla'); ?></h3>
+    <h4 class="font-display uppercase text-lg md:text-xl pt-2 md:pt-4 leading-none"><?php the_title(); ?></h4>
+    <div class="col-span-2 md:col-span-1 py-2"><?php echo get_field('servicio-descripcion'); ?></div>
+</div>
                                     </a>
                                 </article>
                             <?php endforeach; ?>

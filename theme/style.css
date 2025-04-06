@@ -46,6 +46,8 @@ Underscores and Varia are distributed under the terms of the GNU GPL v2 or later
   --text-3xl--line-height: calc(2.25 / 1.875);
   --text-4xl: 2.25rem;
   --text-4xl--line-height: calc(2.5 / 2.25);
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 1;
   --text-6xl: 3.75rem;
   --text-6xl--line-height: 1;
   --text-7xl: 4.5rem;
@@ -55,6 +57,7 @@ Underscores and Varia are distributed under the terms of the GNU GPL v2 or later
   --font-weight-extrabold: 800;
   --tracking-tighter: -0.05em;
   --tracking-wider: 0.05em;
+  --leading-normal: 1.5;
   --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
   --default-transition-duration: 150ms;
   --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -256,7 +259,7 @@ body {
   padding: 0 5% !important;
 }
 .mobile .container {
-  padding: 10% !important;
+  padding: 5% !important;
 }
 .oscurecer {
   filter: brightness(0) invert(0);
@@ -378,6 +381,9 @@ body {
 }
 .z-1 {
   z-index: 1;
+}
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 .container {
   width: 100%;
@@ -940,6 +946,12 @@ body {
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+.grid-cols-\[0\.3fr_0\.7fr\] {
+  grid-template-columns: 0.3fr 0.7fr;
+}
+.grid-rows-\[auto_auto\] {
+  grid-template-rows: auto auto;
+}
 .flex-col {
   flex-direction: column;
 }
@@ -976,11 +988,11 @@ body {
 .gap-4 {
   gap: calc(var(--spacing) * 4);
 }
-.gap-y-1 {
-  row-gap: calc(var(--spacing) * 1);
-}
 .gap-y-2 {
   row-gap: calc(var(--spacing) * 2);
+}
+.gap-y-3 {
+  row-gap: calc(var(--spacing) * 3);
 }
 .overflow-hidden {
   overflow: hidden;
@@ -1079,8 +1091,8 @@ body {
 .py-20 {
   padding-block: calc(var(--spacing) * 20);
 }
-.pt-4 {
-  padding-top: calc(var(--spacing) * 4);
+.pt-2 {
+  padding-top: calc(var(--spacing) * 2);
 }
 .pt-24 {
   padding-top: calc(var(--spacing) * 24);
@@ -1117,9 +1129,9 @@ body {
   font-size: var(--text-3xl);
   line-height: var(--tw-leading, var(--text-3xl--line-height));
 }
-.text-7xl {
-  font-size: var(--text-7xl);
-  line-height: var(--tw-leading, var(--text-7xl--line-height));
+.text-5xl {
+  font-size: var(--text-5xl);
+  line-height: var(--tw-leading, var(--text-5xl--line-height));
 }
 .text-lg {
   font-size: var(--text-lg);
@@ -1387,6 +1399,11 @@ body {
   }
 }
 @media (width >= 48rem) {
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+}
+@media (width >= 48rem) {
   .md\:mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
   }
@@ -1482,6 +1499,11 @@ body {
   }
 }
 @media (width >= 48rem) {
+  .md\:grid-rows-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+}
+@media (width >= 48rem) {
   .md\:flex-col {
     flex-direction: column;
   }
@@ -1494,6 +1516,11 @@ body {
 @media (width >= 48rem) {
   .md\:gap-8 {
     gap: calc(var(--spacing) * 8);
+  }
+}
+@media (width >= 48rem) {
+  .md\:gap-y-1 {
+    row-gap: calc(var(--spacing) * 1);
   }
 }
 @media (width >= 48rem) {
@@ -1522,6 +1549,11 @@ body {
 @media (width >= 48rem) {
   .md\:py-40 {
     padding-block: calc(var(--spacing) * 40);
+  }
+}
+@media (width >= 48rem) {
+  .md\:pt-4 {
+    padding-top: calc(var(--spacing) * 4);
   }
 }
 @media (width >= 48rem) {
@@ -1559,8 +1591,26 @@ body {
   }
 }
 @media (width >= 48rem) {
+  .md\:text-7xl {
+    font-size: var(--text-7xl);
+    line-height: var(--tw-leading, var(--text-7xl--line-height));
+  }
+}
+@media (width >= 48rem) {
+  .md\:text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
+  }
+}
+@media (width >= 48rem) {
   .md\:text-\[28px\] {
     font-size: 28px;
+  }
+}
+@media (width >= 48rem) {
+  .md\:leading-normal {
+    --tw-leading: var(--leading-normal);
+    line-height: var(--leading-normal);
   }
 }
 @media (width >= 48rem) {
