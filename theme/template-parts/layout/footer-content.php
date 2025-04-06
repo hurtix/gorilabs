@@ -16,7 +16,7 @@
 			<div class="flex pt-24 pb-24 md:pb-12">
 				<div class="w-1/2">
 					<div class="icon relative">
-						<img class="absolute -top-25 md:-top-25 left-0 md:-left-20 w-30 md:w-40 pointer-events-none select-none grayscale-100 brightness-175 animate-float drop-shadow-[0_5px_15px_rgba(255,255,255,0.2)]" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/webp/icon-17.webp" alt="">
+						<img class="absolute -top-25 md:-top-25 -left-5 md:-left-20 w-30 md:w-40 pointer-events-none select-none grayscale-100 brightness-175 animate-float drop-shadow-[0_5px_15px_rgba(255,255,255,0.2)]" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/webp/icon-17.webp" alt="">
 					</div>
 					<h2 class="text-3xl md:text-6xl font-titulo font-bold">¡Hey, hablemos!</h2>
 				</div>
