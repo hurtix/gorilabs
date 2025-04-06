@@ -66,29 +66,29 @@
 
 <aside>
     <div class="fixed flex md:block z-1 bg-white bottom-0 left-0 md:top-0 md:right-0 md:left-auto w-full md:w-[10%] md:h-screen border-t md:border-t-0 md:border-l border-gray-200">
-                    <div class="md:h-[50%] w-1/2 md:w-auto">
-                <a class="font-display uppercase h-full flex justify-center items-center hover:bg-[#64E69E] hover:text-white py-4 md:py-0 text-center" href="https://api.whatsapp.com/send?phone=573012956665&text=Hola%20*GORILABS*%2C%20estoy%20interesado%20en%20recibir%20m%C3%A1s%20informaci%C3%B3n%20[%20Start%20]" target="_blank">
-                    <span class="md:-rotate-90 tracking-[3px] md:tracking-[10px] relative px-2 py-1">
-                        <div class="absolute -left-1 -top-1 w-2 h-2 border-l-2 border-t-2 border-[#212123]"></div>
-                        <div class="absolute -right-1 -top-1 w-2 h-2 border-r-2 border-t-2 border-[#212123]"></div>
-                        <div class="absolute -left-1 -bottom-1 w-2 h-2 border-l-2 border-b-2 border-[#212123]"></div>
-                        <div class="absolute -right-1 -bottom-1 w-2 h-2 border-r-2 border-b-2 border-[#212123]"></div>
-                        Escríbenos
-                    </span>
-                </a>
-            </div>
-            <div class="w-[1px] bg-gray-200"></div>
-            <div class="md:h-[50%] w-1/2 md:w-auto border-t-0 md:border-t border-gray-100">
-                <a class="font-display uppercase h-full flex justify-center items-center hover:bg-[#64E69E] hover:text-white py-4 md:py-0 text-center" href="https://www.instagram.com/_gorilabs" target="_blank">
-                    <span class="md:-rotate-90 tracking-[3px] md:tracking-[10px] relative px-2 py-1">
-                        <div class="absolute -left-1 -top-1 w-2 h-2 border-l-2 border-t-2 border-[#212123]"></div>
-                        <div class="absolute -right-1 -top-1 w-2 h-2 border-r-2 border-t-2 border-[#212123]"></div>
-                        <div class="absolute -left-1 -bottom-1 w-2 h-2 border-l-2 border-b-2 border-[#212123]"></div>
-                        <div class="absolute -right-1 -bottom-1 w-2 h-2 border-r-2 border-b-2 border-[#212123]"></div>
-                        Síguenos
-                    </span>
-                </a>
-            </div>
+        <div class="md:h-[50%] w-1/2 md:w-auto">
+            <a class="font-display uppercase h-full flex justify-center items-center hover:bg-[#64E69E] hover:text-white py-4 md:py-0 text-center" href="https://api.whatsapp.com/send?phone=573012956665&text=Hola%20*GORILABS*%2C%20estoy%20interesado%20en%20recibir%20m%C3%A1s%20informaci%C3%B3n%20[%20Start%20]" target="_blank">
+                <div class="md:-rotate-90 tracking-[3px] md:tracking-[10px] relative px-2 py-1">
+                    <div class="absolute -left-1 -top-1 w-2 h-2 border-l-2 border-t-2 border-[#212123]"></div>
+                    <div class="absolute -right-1 -top-1 w-2 h-2 border-r-2 border-t-2 border-[#212123]"></div>
+                    <div class="absolute -left-1 -bottom-1 w-2 h-2 border-l-2 border-b-2 border-[#212123]"></div>
+                    <div class="absolute -right-1 -bottom-1 w-2 h-2 border-r-2 border-b-2 border-[#212123]"></div>
+                    Escríbenos
+                </div>
+            </a>
+        </div>
+        <div class="w-[1px] bg-gray-200"></div>
+        <div class="md:h-[50%] w-1/2 md:w-auto border-t-0 md:border-t border-gray-100">
+            <a class="font-display uppercase h-full flex justify-center items-center hover:bg-[#64E69E] hover:text-white py-4 md:py-0 text-center" href="https://www.instagram.com/_gorilabs" target="_blank">
+                <div class="md:-rotate-90 tracking-[3px] md:tracking-[10px] relative px-2 py-1">
+                    <div class="absolute -left-1 -top-1 w-2 h-2 border-l-2 border-t-2 border-[#212123]"></div>
+                    <div class="absolute -right-1 -top-1 w-2 h-2 border-r-2 border-t-2 border-[#212123]"></div>
+                    <div class="absolute -left-1 -bottom-1 w-2 h-2 border-l-2 border-b-2 border-[#212123]"></div>
+                    <div class="absolute -right-1 -bottom-1 w-2 h-2 border-r-2 border-b-2 border-[#212123]"></div>
+                    Síguenos
+                </div>
+            </a>
+        </div>
     </div>
 </aside>
 
