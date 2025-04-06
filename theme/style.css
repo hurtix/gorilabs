@@ -1767,12 +1767,6 @@ body {
   border-bottom-style: var(--tw-border-style);
   border-bottom-width: 0px;
 }
-.\[\&\>h2\]\:mb-8 > h2 {
-  margin-bottom: calc(var(--spacing) * 8);
-}
-.\[\&\>h2\:last-child\]\:mb-0 > h2:last-child {
-  margin-bottom: calc(var(--spacing) * 0);
-}
 .\[\&\>li\]\:border > li {
   border-style: var(--tw-border-style);
   border-width: 1px;
@@ -1801,6 +1795,9 @@ body {
 }
 .\[\&\>p\]\:mb-8 > p {
   margin-bottom: calc(var(--spacing) * 8);
+}
+.\[\&\>p\:last-child\]\:mb-0 > p:last-child {
+  margin-bottom: calc(var(--spacing) * 0);
 }
 @property --tw-font-weight {
   syntax: "*";

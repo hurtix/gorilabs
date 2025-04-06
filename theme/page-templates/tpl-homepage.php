@@ -14,13 +14,13 @@ get_header(); ?>
 <!-- WHAT - ¿QUÉ? -->
 <div id="what" class="w-full">
     <div class="container mx-auto bg-white text-[#212123] h-auto md:h-screen relative flex items-center">
-
+        <h1 class="sr-only">GORILABS, diseño, desarrollo, logística y consultoría.</h1>
         <div class="w-1/1">
             <div class="icon relative">
                 <img class="absolute rotate-5 -top-20 md:-top-25 right-1 md:right-0 w-30 md:w-40 pointer-events-none select-none grayscale-100 brightness-125 animate-float drop-shadow-[0_5px_15px_rgba(0,0,0,0.2)]" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/webp/icon-33.webp" alt="icono">
             </div>
             <span>What?</span>
-            <h1 class="text-3xl md:text-6xl font-titulo font-bold">Construimos experiencias para un mundo phygital, transformando productos y servicios, fortaleciendo marcas e impulsando resultados.</h1>
+            <h2 class="text-3xl md:text-6xl font-titulo font-bold">Construimos experiencias para un mundo phygital, transformando productos y servicios, fortaleciendo marcas e impulsando resultados.</h2>
         </div>
         <?php if (!wp_is_mobile()) { ?>
             <div class="absolute mx-auto bottom-0 left-0 px-[5%] border-t border-gray-200 py-10">
@@ -43,12 +43,12 @@ get_header(); ?>
                 <span>Who?</span>
                 <h2 class="font-titulo font-bold text-3xl md:text-4xl mb-6 pr-0 md:pr-25">Somos tu aliado tecnológico para el éxito</h2>
             </div>
-            <div class="w-1/1 md:w-2/3 font-titulo text-[20px] md:text-[28px] [&>h2]:mb-8 [&>h2:last-child]:mb-0">
-                <h2>Brindamos soluciones digitales e integrales, con más de 30 años de experiencia combinada, hemos ayudado a transformar empresas en diversas industrias, con clientes tanto en Colombia como en el extranjero.</h2>
+            <div class="w-1/1 md:w-2/3 font-titulo text-[20px] md:text-[28px] [&>p]:mb-8 [&>p:last-child]:mb-0">
+                <p>Brindamos soluciones digitales e integrales, con más de 30 años de experiencia combinada, hemos ayudado a transformar empresas en diversas industrias, con clientes tanto en Colombia como en el extranjero.</p>
 
-                <h2>Nuestra fortaleza radica en la diversidad de nuestras competencias. Esta versatilidad nos permite diseñar experiencias phygitales completas que conectan el mundo físico y digital de manera coherente y estratégica.</h2>
+                <p>Nuestra fortaleza radica en la diversidad de nuestras competencias. Esta versatilidad nos permite diseñar experiencias phygitales completas que conectan el mundo físico y digital de manera coherente y estratégica.</p>
 
-                <h2>Colaborar con nosotros significa trabajar directamente con los fundadores para garantizar soluciones a medida que se ajusten a las necesidades y objetivos específicos de su negocio.</h2>
+                <p>Colaborar con nosotros significa trabajar directamente con los fundadores para garantizar soluciones a medida que se ajusten a las necesidades y objetivos específicos de su negocio.</p>
 
                 <!-- <a class="font-serif italic text-xl border-2 border-white p-4 block w-fit " href="/manifiesto">Manifiesto de fundadores</a> -->
 
@@ -113,12 +113,12 @@ get_header(); ?>
                 <span>Where?</span>
                 <h2 class="font-titulo font-bold text-3xl md:text-4xl mb-6 pr-0 md:pr-25">Estamos donde nos necesitan nuestros clientes</h2>
             </div>
-            <div class="w-1/1 md:w-2/3 font-titulo text-[20px] md:text-[28px] [&>h2]:mb-8 [&>h2:last-child]:mb-0">
-                <h2>Operamos desde el suroccidente Colombiano, sin embargo nuestros clientes se encuentran a lo largo de las regiones del país, Estados Unidos y Europa.</h2>
+            <div class="w-1/1 md:w-2/3 font-titulo text-[20px] md:text-[28px] [&>p]:mb-8 [&>p:last-child]:mb-0">
+                <p>Operamos desde el suroccidente Colombiano, sin embargo nuestros clientes se encuentran a lo largo de las regiones del país, Estados Unidos y Europa.</p>
 
-                <h2>Nos gusta manejar los proyectos remotamente y en la actualidad servimos a más de 20 clientes activos alrededor del mundo y a lo largo de varios sectores de la industria, todos unidos por una posición de liderazgo en sus respectivos sectores.</h2>
+                <p>Nos gusta manejar los proyectos remotamente y en la actualidad servimos a más de 20 clientes activos alrededor del mundo y a lo largo de varios sectores de la industria, todos unidos por una posición de liderazgo en sus respectivos sectores.</p>
 
-                <h2>La experiencia nos permite entender tanto mercados locales como internacionales, adaptando soluciones a diversos contextos culturales y comerciales.</h2>
+                <p>La experiencia nos permite entender tanto mercados locales como internacionales, adaptando soluciones a diversos contextos culturales y comerciales.</p>
             </div>
         </div>
     </div>
@@ -132,12 +132,12 @@ get_header(); ?>
                 <span>When?</span>
                 <h2 class="font-titulo font-bold text-3xl md:text-4xl mb-6 pr-0 md:pr-25">Acompañamiento experto en cada etapa</h2>
             </div>
-            <div class="w-1/1 md:w-2/3 font-titulo text-[20px] md:text-[28px] [&>h2]:mb-8 [&>h2:last-child]:mb-0">
-                <h2>Estamos presentes en los momentos críticos de transformación de su negocio, cuando necesita renovar su identidad, optimizar su presencia digital o crear nuevas experiencias para sus usuarios.</h2>
+            <div class="w-1/1 md:w-2/3 font-titulo text-[20px] md:text-[28px] [&>p]:mb-8 [&>p:last-child]:mb-0">
+                <p>Estamos presentes en los momentos críticos de transformación de su negocio, cuando necesita renovar su identidad, optimizar su presencia digital o crear nuevas experiencias para sus usuarios.</p>
 
-                <h2>Actuamos tanto en fases iniciales de emprendimiento como en procesos de renovación de marcas establecidas, adaptándonos a los ciclos de evolución de cada negocio.</h2>
+                <p>Actuamos tanto en fases iniciales de emprendimiento como en procesos de renovación de marcas establecidas, adaptándonos a los ciclos de evolución de cada negocio.</p>
 
-                <h2>Estamos preparados para responder ágilmente a los desafíos actuales del mercado.</h2>
+                <p>Estamos preparados para responder ágilmente a los desafíos actuales del mercado.</p>
             </div>
         </div>
     </div>
@@ -151,12 +151,12 @@ get_header(); ?>
                 <span>Why?</span>
                 <h2 class="font-titulo font-bold text-3xl md:text-4xl mb-6 pr-0 md:pr-25">Cada proyecto, un compromiso con la excelencia</h2>
             </div>
-            <div class="w-1/1 md:w-2/3 font-titulo text-[20px] md:text-[28px] [&>h2]:mb-8 [&>h2:last-child]:mb-0">
-                <h2>Creemos en el potencial transformador del diseño y la tecnología para crear conexiones significativas entre marcas y personas.</h2>
+            <div class="w-1/1 md:w-2/3 font-titulo text-[20px] md:text-[28px] [&>p]:mb-8 [&>p:last-child]:mb-0">
+                <p>Creemos en el potencial transformador del diseño y la tecnología para crear conexiones significativas entre marcas y personas.</p>
 
-                <h2>Nos apasiona impulsar el crecimiento de organizaciones que comparten nuestra visión de un mundo donde lo físico y lo digital convergen para mejorar experiencias cotidianas.</h2>
+                <p>Nos apasiona impulsar el crecimiento de organizaciones que comparten nuestra visión de un mundo donde lo físico y lo digital convergen para mejorar experiencias cotidianas.</p>
 
-                <h2>Buscamos dejar una huella duradera a través de soluciones que no solo resuelvan problemas actuales, sino que anticipen necesidades futuras y contribuyan a un ecosistema digital más humano e intuitivo.</h2>
+                <p>Buscamos dejar una huella duradera a través de soluciones que no solo resuelvan problemas actuales, sino que anticipen necesidades futuras y contribuyan a un ecosistema digital más humano e intuitivo.</p>
             </div>
         </div>
     </div>
@@ -189,10 +189,10 @@ get_header(); ?>
                 <span>How much?</span>
                 <h2 class="font-titulo font-bold text-3xl md:text-4xl mb-6 pr-0 md:pr-25">Ofrecemos tarifas equilibradas y transparentes</h2>
             </div>
-            <div class="w-1/1 md:w-2/3 font-titulo text-[20px] md:text-[28px] [&>h2]:mb-8 [&>h2:last-child]:mb-0">
-                <h2>Nuestra estructura optimizada, estratégica, ágil y creativa nos permite un uso más eficiente del presupuesto de nuestros clientes.</h2>
+            <div class="w-1/1 md:w-2/3 font-titulo text-[20px] md:text-[28px] [&>p]:mb-8 [&>p:last-child]:mb-0">
+                <p>Nuestra estructura optimizada, estratégica, ágil y creativa nos permite un uso más eficiente del presupuesto de nuestros clientes.</p>
 
-                <h2>Hacemos esto porque amamos hacerlo. Cobramos un precio a cambio porque tenemos que pagar nuestras facturas. Esto es lo que hacemos. Esto es lo que amamos. Esto es lo que nos pone orgullosos y lo que hace que nuestros clientes sean muy felices.</h2>
+                <p>Hacemos esto porque amamos hacerlo. Cobramos un precio a cambio porque tenemos que pagar nuestras facturas. Esto es lo que hacemos. Esto es lo que amamos. Esto es lo que nos pone orgullosos y lo que hace que nuestros clientes sean muy felices.</p>
 
             </div>
         </div>
