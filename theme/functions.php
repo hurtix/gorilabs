@@ -249,3 +249,11 @@ function gorilabstw_disable_gutenberg() {
 }
 add_action('init', 'gorilabstw_disable_gutenberg');
 
+
+// En functions.php o donde enqueues tus scripts
+function enqueue_splide_scripts() {
+    wp_enqueue_style('splide-css', get_stylesheet_directory_uri() . '/inc/splide/dist/css/splide.min.css');
+    wp_enqueue_script('splide-js', get_stylesheet_directory_uri() . '/inc/splide/dist/js/splide.min.js', array(), null, true);
+    wp_enqueue_script('splide-grid-js', get_stylesheet_directory_uri() . '/inc/splide/dist/js/splide-extension-grid.min.js', array('splide-js'), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_splide_scripts');

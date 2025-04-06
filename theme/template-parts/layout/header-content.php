@@ -11,17 +11,17 @@
 ?>
 
 <header id="masthead">
-    <div class="relative md:fixed w-full md:w-[10%] py-4 px-[2%] h-full border-r-0 md:border-r border-gray-200">
-        <div class="flex flex-col h-full justify-around">
-            <div class="flex justify-center">
+    <div class="relative md:fixed w-full md:w-[10%] py-4 px-[5%] md:px-[2%] h-full border-r-0 md:border-r border-gray-200">
+        <div class="grid grid-cols-2 md:flex flex-col h-full justify-between md:justify-around items-center">
+            <div class="flex justify-start md:justify-center">
                 <a href="/" class="block overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
-                    <img class="h-[75px] md:h-[125px]" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/brand.svg" alt="Logo">
+                    <img class="h-[100px] md:h-[125px]" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/brand.svg" alt="Logo">
                 </a>
             </div>
-            
-            <hr class="text-gray-200 hidden md:block">
+
+            <hr class="text-gray-200 w-full hidden md:block">
             <!-- Get nav -->
-            <nav id="site-navigation" aria-label="<?php esc_attr_e('Main Navigation', 'gorilabstw'); ?>">
+            <nav id="site-navigation" class="flex justify-end" aria-label="<?php esc_attr_e('Main Navigation', 'gorilabstw'); ?>">
                 <?php if (is_front_page()) { ?>
                     <ul class="hidden md:flex flex-row md:flex-col justify-start items-start gap-y-2">
                         <li><a class="nav-link transition-all duration-300 opacity-50 hover:opacity-100 font-normal hover:font-bold" href="#what">What?</a></li>
@@ -35,7 +35,16 @@
                     </ul>
 
                 <?php } else {  ?>
-                    <a class="transition-all duration-300 opacity-50 hover:opacity-100 font-normal block text-center leading-none hover:font-bold" href="/">Volver al home</a>
+                    <!-- <a class="transition-all duration-300 opacity-50 hover:opacity-100 font-normal block text-right md:text-center leading-none hover:font-bold" href="/">Volver al home</a> -->
+                    <div class="relative group">
+                        <div class="absolute -left-1 -top-1 w-2 h-2 border-l-2 border-t-2 border-black transition-all duration-300 group-hover:left-0 group-hover:top-0"></div>
+                        <div class="absolute -right-1 -top-1 w-2 h-2 border-r-2 border-t-2 border-black transition-all duration-300 group-hover:right-0 group-hover:top-0"></div>
+                        <div class="absolute -left-1 -bottom-1 w-2 h-2 border-l-2 border-b-2 border-black transition-all duration-300 group-hover:left-0 group-hover:bottom-0"></div>
+                        <div class="absolute -right-1 -bottom-1 w-2 h-2 border-r-2 border-b-2 border-black transition-all duration-300 group-hover:right-0 group-hover:bottom-0"></div>
+                        <a href="/" class="font-serif text-sm italic tracking-wider bg-white text-[#212123] p-1 block w-auto text-center transition-colors duration-300 hover:bg-[#64E69E] hover:text-white">
+                            Volver al home
+                        </a>
+                    </div>
                 <?php }  ?>
 
                 <!-- <button aria-controls="primary-menu" aria-expanded="false"><?php //esc_html_e( 'Primary Menu', 'gorilabstw' ); 
@@ -56,21 +65,30 @@
 </header><!-- #masthead -->
 
 <aside>
-    <div class="fixed z-1 bg-white bottom-0 left-0 md:top-0 md:right-0 md:left-auto w-full md:w-[10%] md:h-screen border-t md:border-t-0 md:border-l border-gray-200">
-        <div class="flex flex-row md:flex-col gap-0 md:h-full">
-            <div class="md:h-[50%] w-1/2 md:w-auto">
-                <a class="font-display uppercase h-full flex justify-center items-center hover:bg-[#64E69E] hover:text-white py-5 md:py-0 text-center" href="https://api.whatsapp.com/send?phone=573012956665&text=Hola%20*GORILABS*%2C%20estoy%20interesado%20en%20recibir%20m%C3%A1s%20informaci%C3%B3n%20[%20Start%20]" target="_blank">
-                    <span class="md:-rotate-90 tracking-[5px] md:tracking-[10px]">Escríbenos</span>
+    <div class="fixed flex md:block z-1 bg-white bottom-0 left-0 md:top-0 md:right-0 md:left-auto w-full md:w-[10%] md:h-screen border-t md:border-t-0 md:border-l border-gray-200">
+                    <div class="md:h-[50%] w-1/2 md:w-auto">
+                <a class="font-display uppercase h-full flex justify-center items-center hover:bg-[#64E69E] hover:text-white py-4 md:py-0 text-center" href="https://api.whatsapp.com/send?phone=573012956665&text=Hola%20*GORILABS*%2C%20estoy%20interesado%20en%20recibir%20m%C3%A1s%20informaci%C3%B3n%20[%20Start%20]" target="_blank">
+                    <span class="md:-rotate-90 tracking-[3px] md:tracking-[10px] relative px-2 py-1">
+                        <div class="absolute -left-1 -top-1 w-2 h-2 border-l-2 border-t-2 border-[#212123]"></div>
+                        <div class="absolute -right-1 -top-1 w-2 h-2 border-r-2 border-t-2 border-[#212123]"></div>
+                        <div class="absolute -left-1 -bottom-1 w-2 h-2 border-l-2 border-b-2 border-[#212123]"></div>
+                        <div class="absolute -right-1 -bottom-1 w-2 h-2 border-r-2 border-b-2 border-[#212123]"></div>
+                        Escríbenos
+                    </span>
                 </a>
             </div>
             <div class="w-[1px] bg-gray-200"></div>
-            <div class="md:h-[50%] w-1/2 md:w-auto border-t border-gray-100">
-                <a class="font-display uppercase h-full flex justify-center items-center hover:bg-[#64E69E] hover:text-white py-5 md:py-0  text-center" href="https://www.instagram.com/_gorilabs" target="_blank">
-                    <span class="md:-rotate-90 tracking-[3px] md:tracking-[10px]">Síguenos</span>
+            <div class="md:h-[50%] w-1/2 md:w-auto border-t-0 md:border-t border-gray-100">
+                <a class="font-display uppercase h-full flex justify-center items-center hover:bg-[#64E69E] hover:text-white py-4 md:py-0 text-center" href="https://www.instagram.com/_gorilabs" target="_blank">
+                    <span class="md:-rotate-90 tracking-[3px] md:tracking-[10px] relative px-2 py-1">
+                        <div class="absolute -left-1 -top-1 w-2 h-2 border-l-2 border-t-2 border-[#212123]"></div>
+                        <div class="absolute -right-1 -top-1 w-2 h-2 border-r-2 border-t-2 border-[#212123]"></div>
+                        <div class="absolute -left-1 -bottom-1 w-2 h-2 border-l-2 border-b-2 border-[#212123]"></div>
+                        <div class="absolute -right-1 -bottom-1 w-2 h-2 border-r-2 border-b-2 border-[#212123]"></div>
+                        Síguenos
+                    </span>
                 </a>
             </div>
-
-        </div>
     </div>
 </aside>
 
